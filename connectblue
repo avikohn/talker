@@ -1,0 +1,4 @@
+#!/bin/bash
+sudo bluetoothctl << EOF
+connect 38:8B:59:0B:63:E9 
+EOF

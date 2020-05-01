@@ -1,0 +1,1 @@
+gcalcli --calendar=Home remind  5 '/home/pi/talk/talk.sh %s'
