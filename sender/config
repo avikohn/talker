@@ -1,0 +1,4 @@
+HOST=yapper
+dir=/home/avi/remindme/talker/sender
+export PATH=$dir:$PATH
+sayingdir=$dir/sayings
