@@ -18,7 +18,7 @@ if [ ! -f $fname ]; then
 	#echo "Current time is $(date +'%I:%M') " > $fname
 	echo $1 >>  $fname
 	#scp  $fname pi@$HOST:~/talk/sayings/
-	#scp  $fname $HOST:~/talk/sayings/
+	scp  $fname $HOST:~/talk/sayings/
 	#cat /dev/null > $fname
 else
 	echo "File exists already $fname " 
